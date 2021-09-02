@@ -40,6 +40,12 @@ This fancy boxplot agrees with the earlier boxplot in that the median of average
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+  
+The numerical data seems to agree with the 2 previously plotted boxplots. The front-seat students drink an average of 1.8 times per week, the middle-seat students drink an average of 3.3 times per week, and the back-seat students drink an average of 8.6 times per week. The standard deviations of the front, middle, and back-seat students, being 3.8, 6.2, and 12.6 correspondingly, seem to agree with the second boxplot: the farther the student is in the class, the greater the variety of alcohol use per week.  
+  
 ## Inferential Tests
 
 ## Conclusions
