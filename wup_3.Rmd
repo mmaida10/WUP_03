@@ -1,7 +1,7 @@
 ---
 title: "Alcohol vs Seat choice"
-author: "Your Name"
-date: "Fall 2020"
+author: "Michael Maida"
+date: "2 September 2021"
 output: html_document
 ---
 
@@ -28,12 +28,15 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 basicCN + geom_boxplot()
 ```
   
+This boxplot demonstrates that the median alcohol use per week for the front-seat students, middle-seat students, and back-seat students, was around 0, 1, and 5, correspondingly. This supports the idea that back-seat students drink more than middle-seat students, who drink more than front-seat students.
   
 ### get fancy  
 
 ```{r}
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
+
+This fancy boxplot agrees with the earlier boxplot in that the median of average alcohol use of the back seat students is greater than the front seat students. Additionally, it proves that the standard deviation--and thus variation--of alcohol use by the backseat students is greater than the front and middle seat students. This is shown in that the fancy boxplot's notches of backseat students are bigger than the front and middle seat students.
 
 ## Numerical Summarys 
 
