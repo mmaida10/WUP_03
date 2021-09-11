@@ -62,5 +62,9 @@ plot(TukeyHSD(model1))
 
 According to the this chart, the middle-front are not significantly different, while the middle-back and the middle-front are noticeably different.  
 ## Conclusions
-
-
+We discovered there were three different categories. To determine the amount of drinks per week by the rows that people sat in, we used anova. 
+The first boxplot demonstrates that the median alcohol use per week for the front-seat students, middle-seat students, and back-seat students, was around 0, 1, and 5, correspondingly. This supports the idea that back-seat students drink more than middle-seat students, who drink more than front-seat students.
+The fancy boxplot agrees with our first boxplot in that the median of average alcohol use of the back seat students is greater than the front seat students. Additionally, it proves that the standard deviation--and thus variation--of alcohol use by the backseat students is greater than the front and middle seat students. This is shown in that the fancy boxplot's notches of backseat students are bigger than the front and middle seat students.
+The numerical data seems to agree with the 2 previously plotted boxplots. The front-seat students drink an average of 1.8 times per week, the middle-seat students drink an average of 3.3 times per week, and the back-seat students drink an average of 8.6 times per week. The standard deviations of the front, middle, and back-seat students, being 3.8, 6.2, and 12.6 correspondingly, seem to agree with the second boxplot: the farther the student is in the class, the greater the variation of alcohol use per week.  
+The P-value represents the chances of getting this results under the assumption of the nul hypothesis. Since the P-value is 0.000116, the chance that we would get this result is approximately 1 in 10,000. Thus, the null hypothesis is rejected. 
+According to the the last chart, the middle-front are not significantly different, while the middle-back and the middle-front are noticeably different. 
