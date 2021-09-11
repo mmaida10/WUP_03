@@ -55,6 +55,12 @@ summary.aov(model1)
   
 The P-value represents the chances of getting this results under the assumption of the nul hypothesis. Since the P-value is 0.000116, the chance that we would get this result is approximately 1 in 10,000. Thus, the null hypothesis is rejected.  
   
+We now need to try to discover what is different from the other. 
+```{r}
+plot(TukeyHSD(model1))
+```
+
+According to the this chart, the middle-front are not significantly different, while the middle-back and the middle-front are noticeably different.  
 ## Conclusions
 
 
